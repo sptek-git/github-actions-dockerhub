@@ -24,7 +24,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v2
         with:
-          images: park0224/cloudflask
+          images: park0224/cloudflask2
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v2
